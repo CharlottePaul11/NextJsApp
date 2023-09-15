@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          A project created by ...
+          A project created by ... charlotte
         </p>
 
         <body>
