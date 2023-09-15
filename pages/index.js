@@ -31,17 +31,6 @@ export default function Home() {
         <p className={styles.description}>
           A project created by Team CommodoreTM.
         </p>
-
-        <body>
-          <div class="sidebar">
-            <div class="logo_content">
-              <div class="logo_name">Calculator</div>
-            </div>
-
-
-          </div>
-
-        </body>
         
       </main>
 
