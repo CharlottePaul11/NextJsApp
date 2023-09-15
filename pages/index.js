@@ -29,7 +29,7 @@ export default function Home() {
       </ul>
 
         <p className={styles.description}>
-          A project created by Team CommodoreTM.
+          A project created by Team ...
         </p>
         
       </main>
