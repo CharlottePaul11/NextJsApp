@@ -118,31 +118,6 @@ export default function Home() {
           text-align: -webkit-match-parent;
         }
 
-        .nav-tabs {
-          --bs-nav-tabs-border-width: var(--bs-border-width);
-          -bs-nav-tabs-border-color: var(--bs-border-color);
-          --bs-nav-tabs-border-radius: var(--bs-border-radius);
-          --bs-nav-tabs-link-hover-border-color: var(--bs-secondary-bg) var(--bs-secondary-bg) var(--bs-border-color);
-          --bs-nav-tabs-link-active-color: var(--bs-emphasis-color);
-          --bs-nav-tabs-link-active-bg: var(--bs-body-bg);
-          --bs-nav-tabs-link-active-border-color: var(--bs-border-color) var(--bs-border-color) var(--bs-body-bg);
-          border-bottom: var(--bs-nav-tabs-border-width) solid var(--bs-nav-tabs-border-color);
-        }
-
-        .nav {
-          --bs-nav-link-padding-x: 1rem;
-          --bs-nav-link-padding-y: 0.5rem;
-          --bs-nav-link-font-weight: ;
-          --bs-nav-link-color: var(--bs-link-color);
-          --bs-nav-link-hover-color: var(--bs-link-hover-color);
-          --bs-nav-link-disabled-color: var(--bs-secondary-color);
-          display: flex;
-          flex-wrap: wrap;
-          padding-left: 0;
-          margin-bottom: 0;
-          list-style: none;
-        }
-
       `}</style>
     </div>
   );
