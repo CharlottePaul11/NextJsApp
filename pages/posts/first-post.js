@@ -4,18 +4,6 @@ export default function FirstPost() {
   return (
     <>
       <h1>Calculator</h1>
-      <ul class="nav nav-tabs">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Calculator</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
-        </li>
-      </ul>
-      
       <h2>
         <Link href="/">Back to home page</Link>
       </h2>

@@ -6,15 +6,27 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Learn Next App</title>
+        <title>Calculator</title>
         <link rel="icon" href="/favicon.ico" />
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'></link>
       </Head>
 
       <main>
         <h1 className={styles.title}>
-          Read <Link href="/posts/first-post">First page!</Link>
+          Read <Link href="/posts/first-post">Calculator!</Link>
         </h1>
+
+        <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Calculator</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+      </ul>
 
         <p className={styles.description}>
           A project created by Team CommodoreTM.
