@@ -13,7 +13,7 @@ export default function Home() {
 
       <main>
         <h1 className={styles.title}>
-          Read <Link href="/posts/first-post">Calculator!</Link>
+        <Link href="/posts/first-post">Calculator!</Link>
         </h1>
 
         <ul class="nav nav-tabs">
