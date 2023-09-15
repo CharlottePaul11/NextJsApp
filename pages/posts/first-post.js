@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function FirstPost() {
   return (
     <>
-      <h1>First Post</h1>
+      <h1>Calculator</h1>
       <h2>
         <Link href="/">Back to home page</Link>
       </h2>
@@ -58,6 +58,15 @@ export default function FirstPost() {
     grid-template-columns: repeat(4, 1fr);
     grid-auto-flow: minmax(60px, auto)
 }
+
+input {
+  height: 75px;
+  width: 250px;
+  background-color: grey;
+  border: 0px;
+  color: #ffffff;
+}
+
 `}
 </style>
       </div>
