@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          A project created by ... sean
+          A project created by Team CommodoreTM
         </p>
 
         <body>
